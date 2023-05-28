@@ -1,0 +1,171 @@
+* {
+    font: Helvetica;    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.intro, .header {
+    background-color: #1F2937;
+    color: white;
+}
+
+.intro-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    background-color: gray;
+    color: white;
+}
+
+.intro-left {
+    max-width: 400px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+.larger {
+    font-size: 48px;
+}
+
+.section-b {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.info {
+    font-size: 36px;
+    padding: 20px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    flex-wrap: wrap;
+}
+
+.card-combo {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+
+.subtext {
+    text-align: center;
+}
+
+.section-c {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote-combo {
+    max-width: 500px;
+}
+
+.attribution {
+    text-align: end;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.action-pane {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 15px;
+    margin: 100px 150px;
+    padding: 50px;
+    align-items: center;
+    padding: 20 px;
+}
+
+.action-text {
+    margin-right: 80px;
+}
+
+.top-text {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    max-height: 25px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+
+li {
+    margin: 0;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
